@@ -1,0 +1,47 @@
+/* Write your CSS code here */
+.bg-container {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  flex-direction: column;
+}
+.firstName-container {
+  display: flex;
+  flex-direction: column;
+}
+.form-conatienr {
+  box-shadow: 0px 4px 16px 0px;
+  height: 50%;
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.btn {
+  border-radius: 5px;
+  cursor: pointer;
+  outline: none;
+  display: flex;
+  border: 0;
+  background-color: #ff0b37;
+  padding: 5px;
+  color: #ffffff;
+}
+.btn-div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px 0;
+}
+.para {
+  margin: 0;
+  color: #ff0b37;
+}
+.label {
+  margin: 5px 0 5px 0;
+}
+.head {
+  color: #ea580c;
+}
